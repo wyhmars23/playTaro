@@ -18,6 +18,7 @@ export default defineConfig<'vite'>(async (merge, { command, mode }) => {
     sourceRoot: 'src',
     outputRoot: 'dist',
     plugins: [],
+    esnextModules: ['taro-ui'],
     defineConstants: {
     },
     copy: {
@@ -48,7 +49,7 @@ export default defineConfig<'vite'>(async (merge, { command, mode }) => {
     h5: {
       publicPath: '/',
       staticDirectory: 'static',
-
+      esnextModules: ['taro-ui'],
       miniCssExtractPluginOption: {
         ignoreOrder: true,
         filename: 'css/[name].[hash].css',
