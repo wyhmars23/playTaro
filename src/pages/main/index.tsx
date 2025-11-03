@@ -21,6 +21,8 @@ const mainPage: React.FC = () => {
         <View className="left">
           <View className="title1">Hi~ 你好!</View>
           <View className="title2">有什么问题都可以问哦~</View>
+          <View className="title1">Hi~ 你好!</View>
+          <View className="title2">有什么问题都可以问哦~</View>
         </View>
         <View className="right">
           <Image className="icon" src={logo} mode="heightFix" />
